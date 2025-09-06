@@ -1,0 +1,12 @@
+# Ignore database files
+chroma/chroma.sqlite3
+chroma/*/data_level0.bin
+chroma/*/index_metadata.pickle
+chroma/*/header.bin
+chroma/*/length.bin
+chroma/*/link_lists.bin
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class 
